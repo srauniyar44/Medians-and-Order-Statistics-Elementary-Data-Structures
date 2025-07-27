@@ -2,32 +2,32 @@
 
 This repository contains Python implementations and analysis for two core algorithmic and data structure topics:
 
-## 📌 Part 1: Selection Algorithms
+##  Part 1: Selection Algorithms
 
-### ✅ Implemented Algorithms
+###  Implemented Algorithms
 - **Deterministic Selection (Median of Medians)**: Finds the k-th smallest element in worst-case linear time.
 - **Randomized Quickselect**: Finds the k-th smallest element in expected linear time.
 
-### 📁 File: `median_selection.py`
+### File: `median_selection.py`
 - `median_of_medians(arr, k)`: Deterministic algorithm
 - `randomized_select(arr, k)`: Randomized algorithm
 
 ---
 
-## 📌 Part 2: Elementary Data Structures
+##  Part 2: Elementary Data Structures
 
-### ✅ Implemented Data Structures
+###  Implemented Data Structures
 - **Arrays and Matrices** (insert, delete, access)
 - **Stacks and Queues** (array-based implementation)
 - **Singly Linked Lists** (insert, delete, traverse)
 
-### 📁 Files:
+###  Files:
 - `array_stack_queue.py`: Contains Array, Stack, and Queue implementations
 - `linked_list.py`: Contains Singly Linked List implementation
 
 ---
 
-## 📈 Performance & Analysis
+## Performance & Analysis
 
 Refer to `report.md` for:
 - Time and space complexity analysis
@@ -36,7 +36,7 @@ Refer to `report.md` for:
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 ```bash
 # Clone the repo
