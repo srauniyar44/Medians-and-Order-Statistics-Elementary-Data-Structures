@@ -1,0 +1,12 @@
+class Array:
+    def __init__(self, size):
+        self.data = [None] * size
+
+    def insert(self, index, value):
+        self.data[index] = value
+
+    def delete(self, index):
+        self.data[index] = None
+
+    def access(self, index):
+        return self.data[index]
